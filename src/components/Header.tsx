@@ -24,11 +24,13 @@ const Header = ({ onNavigate, currentSection }: HeaderProps) => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img 
-              src="/lovable-uploads/5f91454c-2379-4f5c-982b-d649e1b48dce.png" 
-              alt="RVMN Logo" 
-              className="w-12 h-12 object-contain"
-            />
+            <div className="w-12 h-12 flex items-center justify-center">
+              <img 
+                src="/lovable-uploads/5f91454c-2379-4f5c-982b-d649e1b48dce.png" 
+                alt="RVMN Logo" 
+                className="w-10 h-10 object-contain"
+              />
+            </div>
             <div>
               <h1 className="text-2xl font-bold font-poppins bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 RVMN

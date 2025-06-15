@@ -20,11 +20,11 @@ const Hero = () => {
         <div className="animate-fade-in">
           {/* Main Logo */}
           <div className="mb-8">
-            <div className="inline-flex items-center justify-center w-24 h-24 bg-white/20 backdrop-blur-md rounded-full mb-4 p-2">
+            <div className="inline-flex items-center justify-center w-24 h-24 rounded-full mb-4 p-2">
               <img 
                 src="/lovable-uploads/5f91454c-2379-4f5c-982b-d649e1b48dce.png" 
                 alt="RVMN Logo" 
-                className="w-full h-full object-contain filter brightness-0 invert"
+                className="w-16 h-16 object-contain"
               />
             </div>
             <h1 className="text-6xl md:text-8xl font-bold font-poppins text-white mb-4 tracking-tight">
