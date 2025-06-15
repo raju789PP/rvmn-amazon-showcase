@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
@@ -16,7 +15,7 @@ const ProductGrid = () => {
       image: "https://m.media-amazon.com/images/I/61mSJrpMayL._SX679_.jpg",
       link: "https://www.amazon.in/dp/B0F9PRHR1B",
       category: "Massager",
-      price: "₹599",
+      price: "₹229",
       rating: 4.5,
       description: "Professional ice roller for face and body massage. Reduces puffiness, improves circulation, and provides a refreshing skincare experience."
     },
@@ -26,7 +25,7 @@ const ProductGrid = () => {
       image: "https://m.media-amazon.com/images/I/61gvXeCL6bL._SX569_.jpg",
       link: "https://www.amazon.in/dp/B0F2FQJHFZ",
       category: "Body positioner",
-      price: "₹1,299",
+      price: "₹699",
       rating: 4.3,
       description: "Ergonomic memory foam pillow designed for optimal spine alignment and pressure relief. Perfect for neck and shoulder pain relief."
     },
@@ -36,7 +35,7 @@ const ProductGrid = () => {
       image: "https://m.media-amazon.com/images/I/4165XtjXm2L.jpg",
       link: "https://www.amazon.in/dp/B0F9KNQ5TR",
       category: "Games & Sports",
-      price: "₹349",
+      price: "₹499",
       rating: 4.7,
       description: "High-quality pickleball balls with 40 precision holes for optimal bounce and durability. Perfect for outdoor games and tournaments."
     },
@@ -46,7 +45,7 @@ const ProductGrid = () => {
       image: "https://m.media-amazon.com/images/I/618qJ8aQJfL._SX569_.jpg",
       link: "https://www.amazon.in/dp/B0F9LFB3W3",
       category: "Home & Kitchen",
-      price: "₹399",
+      price: "₹299",
       rating: 4.4,
       description: "Non-stick silicone baking mat perfect for rolling dough, kneading atta, and baking. Available in multiple colors for easy identification."
     }
